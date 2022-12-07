@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Registration Form</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/fontawesome.min.css">
+    <link rel="stylesheet" href="/css/all.min.css">
+</head>
+<body>
+    <div class="form-group" >
+        <div class="botton-track" id="button-group">
+            <div class="animation" id="ani"></div>
+            <a href="#" type="button" class="btn" onclick="log()">Log-In</a>
+            <a href="#" type="button" class="btn" onclick="sign()">Sign-Up</a>
+        </div>
+        <div class="forms">
+            <div class="form1" id="form1">
+                <div class="social-media">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-google"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+                <form action="#" class="login">
+                    <input type="email" name="input-clear"  placeholder="Email Id" required>
+                    <input type="password" name="input-clear" placeholder="Password" required>
+                    <a href="#" class="forget">Forget Password?</a>
+                    <button class="button" onclick="alert1()">Login</button>
+                </form>
+            </div>
+            <div class="form2" id="form2">
+                <div class="social-media">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-google"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+                <form action="#" class="login">
+                    <input type="text" name="input-clear" placeholder="Enter your name" required>
+                    <input type="email" name="input-clear" placeholder="Enter your Email-id" required>
+                    <input type="password" name="input-clear" placeholder="Enter your password" required>
+                    <button class="button" onclick="alert2()">Sign-Up</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>

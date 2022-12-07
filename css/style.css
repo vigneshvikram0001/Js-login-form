@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Zen+Dots&display=swap');
+
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box; text-decoration: none;list-style-type: none; font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.571),rgba(0, 0, 0, 0.537)), url(/alight\ bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.form-group{
+    width: 310px;
+    height: 500px;
+    background-color: rgba(194, 194, 194, 0.527);
+    margin: 7% auto;
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 2px 14px 22px black;
+}
+.botton-track{
+    width: 250px;
+    border-radius: 30px;
+    height: 50px;
+    margin: 10px auto;
+    background-color: rgb(225, 225, 225);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-shadow:inset 0px 5px 22px rgba(199, 199, 199, 0.942),
+                10px 5px 10px rgba(0, 0, 0, 0.578);
+}
+.animation{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 30px;
+    background: linear-gradient(30deg,rgb(255, 0, 85), red);
+    transition: .5s;
+}
+.btn{
+    margin: 0 25px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    position: relative;
+    z-index: 1;
+}
+.social-media{
+    width: 100%;
+    text-align: center;
+    margin: 40px 0 20px 0;
+}
+.social-media i{
+    margin: 0 15px;
+    font-size: 25px;
+    border:1px solid transparent;
+    color: white;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 30px;
+    background: linear-gradient(rgb(255, 0, 85), red)
+}
+.social-media i:hover{
+    color: black;
+}
+
+input{
+    border: none;
+    width: 250px;
+    padding: 10px;
+    padding-bottom: 3px;
+    padding-left: 0px;
+    background-color: transparent;
+    margin: 15px;
+    border-bottom: 1px solid rgb(79, 79, 79);
+    font-size: 1.2rem;
+    outline:none;
+}
+input::placeholder{
+    color: rgb(73, 73, 73);
+}
+.forget{
+    margin: 10px 15px;
+    text-decoration: underline;
+}
+.button{
+    width: 100px;margin: auto;
+    display: flex;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 10px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    justify-content: center;
+    background: linear-gradient(rgb(255, 0, 85), red)
+}
+.button:hover{
+    background: linear-gradient(rgb(187, 6, 66), rgb(206, 7, 7))
+}
+
+.forms{
+    display: flex;
+    position: relative;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+}
+#form1{
+    position: absolute;
+    left: 0px;
+    transition: .3s ease-in;
+}
+#form2{
+    position: absolute;
+    left: 350px;
+    transition: .3s ease-in;
+
+}
